@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* 倒计时简单样式*/
+
+.payment-time{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px;
+    vertical-align: middle;
+    background-color: #cc5252;
+    padding: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 7px;
+    color: white;
+    /*padding: 7px;*/
+}
+.payment-time em{
+    color: #fff;
+    background-color: #2B8C25;
+    padding: 0 3px;
+    margin: 0 2px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 5px;
+    font-style: normal;
+}
+.payment-time em{
+    background:#cc5252;
+    font-weight:700;
+    color:white;
+    font-size:14px;
+}
+.pull-right{
+    color:white;
+    font-size:12px;
+}
+.center{
+    text-align: center;
+}
+.time_prefix{
+    font-size:12px;
+}
